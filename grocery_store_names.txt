@@ -1,0 +1,51 @@
+Major Chains:
+Bloor Street Market
+Fortinos
+Loblaws
+Loblaw GreatFood
+Loblaw's CityMarket
+No Frills
+Real Canadian Superstore
+Independent CityMarket
+Your Independent Grocer
+Metro
+Metro Plus
+Food Basics
+FreshCo
+Foodland
+IGA
+Sobeys
+Farm Boy
+T & T Supermarket
+Coppa's Fresh Market
+H Mart
+Highland Farms
+Longo's
+Lococo's
+The Market by Longo's
+Sobeys Urban Fresh
+
+Medium & small:
+Rabba Fine Foods
+Fiesta Farmsv
+
+Other: ; They sell more than just grocery items
+Costco
+Walmart Canada
+Whole Foods Market
+Pusateri's
+The Kitchen Table
+Rexall
+Shoppers Drug Market
+
+Small & Local:
+Galleria Supermarket Express
+Dundas Street Supermarket
+Fresh & Wild Food Market
+Harbour Green Farms
+St.Lawrence Market
+Nations Experience
+Lucky Moose Food Mart
+
+; Taken and filtered from: https://en.wikipedia.org/wiki/List_of_supermarket_chains_in_Canada
+; Additional local groceries to be added (once made known)
