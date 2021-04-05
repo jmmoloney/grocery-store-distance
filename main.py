@@ -1,5 +1,6 @@
-import googlemaps
 from config import Config
+import googlemaps
+import json
 from testing import load_neighbourhood_data
 
 def main():
@@ -15,9 +16,8 @@ if __name__ == '__main__':
 	area = 'Waterfront Communities-The Island (77)'
 	lat_long = df.query("AREA_NAME == '{}'".format(area))
 	lat, long = lat_long.LATITUDE.values, lat_long.LONGITUDE.values
-	location= (lat, long)
+	location = (lat, long)
 
-	# inputtype="textquery"
 	keyword = "Grocery Store"
 
 	radius = 2000 # in metres
@@ -26,16 +26,5 @@ if __name__ == '__main__':
 	gmaps = googlemaps.Client(key=key)
 	result = gmaps.places_nearby(location=location, radius=radius, keyword=keyword,
 								 rank_by=rank_by)
-	print(result)
-
-	# location=None,
-    # radius=None,
-    # keyword=None,
-    # language=None,
-    # min_price=None,
-    # max_price=None,
-    # name=None,
-    # open_now=False,
-    # rank_by=None,
-    # type=None,
-    # page_token=None,
+	with open("waterfront_response_prominence.json", "w") as f:
+		json.dump(result, f)
